@@ -1,0 +1,12 @@
+Variable / Field Name,Form Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Identifier?,Branching Logic (Show field only if...),Required Field?,Custom Alignment,Question Number (surveys only),Matrix Group Name,Matrix Ranking?,Field Annotation
+record_id,demographics,,text,Record ID,,,,,,,,,,,,,
+ic_date,demographics,,text,Date of Informed consent,,,date_ymd,,,,,y,,,,,
+age,demographics,,text,Age at Baseline,,,integer,18,85,,,y,,,,,
+sex,demographics,,radio,Biological Sex,"1, Male | 2, Female | 3, Undisclosed",,,,,,,y,,,,,
+eligiblity_failure_reason,demographics,,notes,Specify which inclusion/exclusion criteria were failed,,,,,,,,y,,,,,
+eligibility_check,demographics,,radio,Does the patient meet all protocol inclusion and exclusion criteria,"1, YES | 2, NO",,,,,,[eligibility_check] = '0',y,,,,,
+ae_term,adverse_event,,text,Adverse event term,,,,,,,,y,,,,,
+ae_onset_date,adverse_event,,text,Adverse event onset date,,,date_ymd,,,,,y,,,,,
+ae_grade,adverse_event,,radio,Toxicity grade,"1, Grade 1: Mild (Asymptomatic or mild symptoms) | 2, Grade 2: Moderate (Minimal, local, or noninvasive intervention indicated) | 3, Grade 3: Severe (Severe or medically significant but not immediately life-threatening) | 4, Grade 4: Life-threatening (Urgent intervention indicated) | 5, Grade 5: Death related to AE",,,,,,,y,,,,,
+ae_sae_check,adverse_event,,radio,Is this adverse event classified as serious adverse event,"1, YES | 2, NO",,,,,,,y,,,,,
+sae_warning_note,adverse_event,,descriptive,REGULATORY NOTICE: This event has been marked as a Serious Adverse Event (SAE). Please ensure that an initial safety report is completed and sent to the Safety Management team within 24 hours of notification!,,,,,,,[ae_sae_check] = '1',,,,,, @NOTICE-WARNING

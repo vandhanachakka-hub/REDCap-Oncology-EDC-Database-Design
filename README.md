@@ -37,6 +37,6 @@ The repository demonstrates hands-on technical competencies required for entry-l
 ---
 
 ## 📂 Repository Artifacts
-*   *[Click to View Demographics eCRF Layout PDF](file:///C:/Users/DELL/Downloads/Demographics_OncologyNSCLCPhas%20(1).pdf)* - Full visual output of the screening form constraints.
-*   *[Click to View Adverse Event eCRF Layout PDF](file:///C:/Users/DELL/Downloads/AdverseEvent_OncologyNSCLCPhas%20(1).pdf)* - Visual output of the safety reporting layout.
-*   *[Click to View Data Dictionary CSV]()* - The underlying structural metadata layout mapping all fields, data choices, branching logic, and variables.
+*   *[Click to View Demographics eCRF Layout PDF](Demographics_OncologyNSCLCPhas (1).pdf)* - Full visual output of the screening form constraints.
+*   *[Click to View Adverse Event eCRF Layout PDF](AdverseEvent_OncologyNSCLCPhas (1).pdf)* - Visual output of the safety reporting layout.
+*   *[Click to View Data Dictionary CSV](OncologyNSCLCPhase2Trial_DataDictionary_2026-10-19 (1).csv)* - The underlying structural metadata layout mapping all fields, data choices, branching logic, and variables.

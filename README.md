@@ -37,6 +37,6 @@ The repository demonstrates hands-on technical competencies required for entry-l
 ---
 
 ## 📂 Repository Artifacts
-*   *[Click to View Demographics eCRF Layout PDF]()* - Full visual output of the screening form constraints.
+*   *[Click to View Demographics eCRF Layout PDF](https://github.com/vandhanachakka-hub/REDCap-Oncology-EDC-Database-Design/blob/main/AdverseEvent_OncologyNSCLCPhas%20(1).pdf)* - Full visual output of the screening form constraints.
 *   *[Click to View Adverse Event eCRF Layout PDF](https://github.com/vandhanachakka-hub/REDCap-Oncology-EDC-Database-Design/blob/main/Demographics_OncologyNSCLCPhas%20(1).pdf)* - Visual output of the safety reporting layout.
 *   *[Click to View Data Dictionary CSV](https://github.com/vandhanachakka-hub/REDCap-Oncology-EDC-Database-Design/blob/main/OncologyNSCLCPhase2Trial_DataDictionary_2026-10-19%20(1).csv)* - The underlying structural metadata layout mapping all fields, data choices, branching logic, and variables.
